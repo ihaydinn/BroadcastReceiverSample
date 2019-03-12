@@ -30,8 +30,8 @@ BroadcastReceiverlar ile ilgili basit önekler yer almaktadır. Butonlara tıkla
  Intent intent = new Intent("my.custom.anotheraction.name");
  
         Bundle bundle=new Bundle();
-        bundle.putString("ad", "Emre Altunbilek");
-        bundle.putInt("yas", 28);
+        bundle.putString("ad", "ismail hakkı aydın");
+        bundle.putInt("yas", 24);
         intent.putExtras(bundle);
  
         sendBroadcast(intent);
